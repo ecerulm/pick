@@ -7,7 +7,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
-#include <bsd/string.h>
 
 #ifdef HAVE_FULL_QUEUE_H
 #include <sys/queue.h>
