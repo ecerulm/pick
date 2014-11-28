@@ -14,6 +14,14 @@
 #include "compat/queue.h"
 #endif /* HAVE_FULL_QUEUE_H */
 
+#ifndef HAVE_STRLCPY
+#include "compat/strlcpy.h"
+#endif /* !HAVE_STRLCPY */
+
+#ifndef HAVE_STRLCAT
+#include "compat/strlcat.h"
+#endif /* !HAVE_STRLCAT */
+
 #include "choice.h"
 #include "choices.h"
 #include "ui.h"

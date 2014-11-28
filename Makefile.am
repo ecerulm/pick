@@ -1,4 +1,4 @@
-AUTOMAKE_OPTIONS=foreign
+AUTOMAKE_OPTIONS=foreign subdir-objects
 SUBDIRS=src man
 EXTRA_DIST=INSTALL.md INSTALL.md.in LICENSE README.md
 
